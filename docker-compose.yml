@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+
+  ks2:
+    build: .
+    container_name: ks2
+    ports:
+      - "18080:8080"
+      - "18787:8787"
